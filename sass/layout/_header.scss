@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 15px;
+  max-width: 480px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header_logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 3%;
+}
+.logo__header_first_part {
+  color: var(--accent-color);
+}
+.logo__header_second_part {
+  color: #000000;
+}
+.header_btn_menu {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  &:hover .heder_btn_icon,
+  &:focus .heder_btn_icon {
+    fill: var(--accent-color);
+  }
+}
+.heder_btn_icon {
+  width: 40px;
+  height: 40px;
+  fill: var(--main-color);
+  transition: fill linear 250ms;
+}
