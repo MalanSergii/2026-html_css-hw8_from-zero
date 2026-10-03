@@ -260,4 +260,44 @@ header .container {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 6%;
+}
+
+.hero_form_layout {
+  position: absolute;
+  top: 10%;
+  background: #ffffff;
+  padding: 40px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.form_btn_close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+.form_btn_close:hover .close_icon, .form_btn_close:focus .close_icon {
+  fill: var(--accent-color);
+}
+
+.close_icon {
+  width: 30px;
+  height: 30px;
+  transition: fill linear 250ms;
+}
+
+.hero_form_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
 }/*# sourceMappingURL=main.css.map */
