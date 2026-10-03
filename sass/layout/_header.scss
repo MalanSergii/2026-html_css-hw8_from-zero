@@ -1,12 +1,9 @@
-.container {
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 15px;
-  max-width: 480px;
-  margin-right: auto;
-  margin-left: auto;
 }
+
 .header_logo {
   font-family: Raleway;
   font-weight: 700;

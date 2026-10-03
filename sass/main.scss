@@ -3,4 +3,6 @@
 @use './utils/vissually-hidden';
 @use './layout/header';
 
+@use './components/container';
 @use './components/header-overlay';
+@use './components/hero';
