@@ -1,6 +1,9 @@
 .hero_form_layout {
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   top: 10%;
+  width: 90vw;
 
   background: #ffffff;
   padding: 40px;
